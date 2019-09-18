@@ -1,0 +1,31 @@
+﻿  DemoAMain.cpp
+  DemoBObject.cpp
+  mainfunction.cpp
+  BaseEngine.cpp
+  DisplayableObject.cpp
+  FontManager.cpp
+  JPGImage.cpp
+  Psyjw19Engine.cpp
+  Psyjw19Object.cpp
+  Psyjw19Object2.cpp
+  Psyjw19Text.cpp
+  Psyjw19TileManager.cpp
+  SimpleDemo.cpp
+  TileManager.cpp
+  BouncingBall.cpp
+  BouncingBallMain.cpp
+  Demo1Main.cpp
+  Demo2Main.cpp
+  Demo2Object.cpp
+  Demo2TileManager.cpp
+  Generating Code...
+  Compiling...
+  Demo3Main.cpp
+  Demo3Object.cpp
+  Demo3ObjectFinished.cpp
+  Demo3TileManager.cpp
+  Demo4Main.cpp
+  Demo4Object.cpp
+  Demo4TileManager.cpp
+  Generating Code...
+  CourseworkBase.vcxproj -> E:\Y3\G52CPP\CW3\CPPCoursework2018\/Debug\CourseworkBase2018.exe

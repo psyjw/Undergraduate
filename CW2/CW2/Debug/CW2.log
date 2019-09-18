@@ -1,0 +1,3 @@
+﻿  CW2.cpp
+e:\y3\g52cpp\cw2\cw2\cw2\cw2.cpp(43): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  CW2.vcxproj -> E:\Y3\G52CPP\CW2\CW2\Debug\CW2.exe

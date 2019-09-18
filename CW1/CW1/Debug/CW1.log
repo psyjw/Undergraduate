@@ -1,0 +1,11 @@
+﻿  CW1.cpp
+e:\y3\g52cpp\cw1\cw1\cw1\cw1.cpp(16): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+e:\y3\g52cpp\cw1\cw1\cw1\cw1.cpp(46): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+  e:\y3\g52cpp\cw1\cw1\cw1\cw1.cpp(46): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  e:\y3\g52cpp\cw1\cw1\cw1\cw1.cpp(46): note: 缺失的可变参数 2 为格式字符串“%c”所需
+  e:\y3\g52cpp\cw1\cw1\cw1\cw1.cpp(46): note: 此参数用作缓冲区大小
+e:\y3\g52cpp\cw1\cw1\cw1\cw1.cpp(101): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+  e:\y3\g52cpp\cw1\cw1\cw1\cw1.cpp(101): note: 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+  e:\y3\g52cpp\cw1\cw1\cw1\cw1.cpp(101): note: 缺失的可变参数 2 为格式字符串“%c”所需
+  e:\y3\g52cpp\cw1\cw1\cw1\cw1.cpp(101): note: 此参数用作缓冲区大小
+  CW1.vcxproj -> E:\Y3\G52CPP\CW1\CW1\Debug\CW1.exe
