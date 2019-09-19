@@ -1,0 +1,41 @@
+        LOADLB      0 2                 
+        LOADA       [SB + 0]
+
+        CALL        getint  
+
+        LOAD        [SB + 0]            
+        LOADA       [SB + 1] 
+
+        CALL        #0_fac 
+                    
+        LOAD        [SB + 1]            
+        CALL        putint              
+        POP         0 2                 
+        HALT                            
+#0_fac:
+        LOAD        [LB - 2]            
+        LOADL       1                   
+        GTR                             
+        JUMPIFNZ    #2                 
+        LOADL       1                   
+        LOAD        [LB - 1]
+        
+
+        STOREI      0    
+
+        JUMP        #1                  
+#2:
+        LOAD        [LB - 2]            
+        LOADL       1                   
+        SUB                             
+        LOAD        [LB - 1]           
+        CALL        #0_fac
+
+        LOAD        [LB - 2]            
+        LOAD        [LB - 1]            
+        LOADI       0                   
+        MUL                             
+        LOAD        [LB - 1]            
+        STOREI      0                   
+#1:
+        RETURN      0 2                 

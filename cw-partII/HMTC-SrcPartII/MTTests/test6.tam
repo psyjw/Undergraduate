@@ -1,0 +1,90 @@
+        LOADL       120                 
+        LOADLB      0 1                 
+        LOADL       1                   
+        JUMPIFZ     #2                  
+        LOADL       1                   
+        LOADL       0                   
+        LOADCA      putint              
+        CALLI                           
+        JUMP        #1                  
+#2:
+        LOADL       1                   
+        JUMPIFZ     #3                  
+        LOADL       2                   
+        LOADL       0                   
+        LOADCA      putint              
+        CALLI                           
+        JUMP        #1                  
+#3:
+        LOADA       [SB + 1]            
+        LOADL       0                   
+        LOADCA      getint              
+        CALLI                           
+#1:
+#4:
+        LOADA       [SB + 1]            
+        LOADIB      1                   
+        LOADL       0                   
+        LOADCA      #0_odd              
+        CALLI                           
+        JUMPIFZ     #5                  
+        LOADA       [SB + 1]            
+        LOADIB      1                   
+        LOADL       3                   
+        LOADL       0                   
+        LOADCA      mul                 
+        CALLI                           
+        LOADL       1                   
+        LOADL       0                   
+        LOADCA      add                 
+        CALLI                           
+        JUMP        #6                  
+#5:
+        LOADA       [SB + 1]            
+        LOADIB      1                   
+        LOADL       2                   
+        LOADL       0                   
+        LOADCA      div                 
+        CALLI                           
+#6:
+        LOADA       [SB + 1]            
+        STOREIB     1                   
+        LOADA       [SB + 1]            
+        LOADIB      1                   
+        LOADL       0                   
+        LOADCA      putint              
+        CALLI                           
+        LOADA       [SB + 1]            
+        LOADIB      1                   
+        LOADL       1                   
+        LOADL       0                   
+        LOADCA      eq                  
+        CALLI                           
+        JUMPIFZ     #4                  
+        LOADA       [SB + 0]            
+        LOADIB      1                   
+        LOADL       0                   
+        LOADCA      putchr              
+        CALLI                           
+        POP         0 2                 
+        HALT                            
+#0_odd:
+        LOADA       [LB - 1]            
+        LOADIB      1                   
+        LOADL       2                   
+        LOADL       0                   
+        LOADCA      div                 
+        CALLI                           
+        LOADL       2                   
+        LOADL       0                   
+        LOADCA      mul                 
+        CALLI                           
+        LOADA       [LB - 1]            
+        LOADIB      1                   
+        LOADL       0                   
+        LOADCA      eq                  
+        CALLI                           
+        LOADL       0                   
+        LOADCA      not                 
+        CALLI                           
+        RETURN      1 1                 

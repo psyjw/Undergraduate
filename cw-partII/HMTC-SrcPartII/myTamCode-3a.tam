@@ -1,0 +1,17 @@
+        GETINT
+        LOAD        [SB + 0] 
+        LOADL       0                   
+        GTR                             
+        JUMPIFZ     #end
+        LOADL       0
+#loop:
+        LOADL       1
+        ADD
+        LOAD        [SB + 1]
+        PUTINT
+        LOAD        [SB + 0]
+        LOAD        [SB + 1]
+        EQL
+        JUMPIFZ     #loop                  
+#end:               
+        HALT  

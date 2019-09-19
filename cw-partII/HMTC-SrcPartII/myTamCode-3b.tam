@@ -1,0 +1,30 @@
+        GETINT
+        LOADL       0
+        LOAD        [SB + 0]            
+        LOADA       [SB + 1]
+        CALL        #0_fac 
+        PUTINT
+        HALT
+#0_fac: 
+        LOAD        [LB - 2]           
+        LOADL       2             
+        LSS
+        JUMPIFZ     #recursive
+        LOADL       1
+        LOAD        [LB - 1]
+        STOREI      0       
+        RETURN      0 2
+#recursive:                           
+        LOAD        [LB - 2]
+        LOADL       1
+        SUB
+        LOAD        [LB - 1]
+        CALL        #0_fac
+        LOAD        [LB - 2]
+        LOAD        [LB - 1]
+        LOADI       0
+        MUL
+        LOAD        [LB - 1]
+        STOREI      0   
+        RETURN      0 2
+                                              
