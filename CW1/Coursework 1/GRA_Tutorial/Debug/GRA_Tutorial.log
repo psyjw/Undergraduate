@@ -1,0 +1,14 @@
+﻿E:\visual studio\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(GRA_Tutorial.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  MyScene.cpp
+e:\y4\g53gra\g53gra-group-9\coursework 1\gra_tutorial\myscene.cpp(209): warning C4244: “参数”: 从“GLdouble”转换到“GLfloat”，可能丢失数据
+e:\y4\g53gra\g53gra-group-9\coursework 1\gra_tutorial\myscene.cpp(210): warning C4244: “参数”: 从“GLdouble”转换到“GLfloat”，可能丢失数据
+e:\y4\g53gra\g53gra-group-9\coursework 1\gra_tutorial\myscene.cpp(211): warning C4244: “参数”: 从“GLdouble”转换到“GLfloat”，可能丢失数据
+e:\y4\g53gra\g53gra-group-9\coursework 1\gra_tutorial\myscene.cpp(263): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\y4\g53gra\g53gra-group-9\coursework 1\gra_tutorial\myscene.cpp(264): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\y4\g53gra\g53gra-group-9\coursework 1\gra_tutorial\myscene.cpp(265): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\y4\g53gra\g53gra-group-9\coursework 1\gra_tutorial\myscene.cpp(266): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\y4\g53gra\g53gra-group-9\coursework 1\gra_tutorial\myscene.cpp(267): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\y4\g53gra\g53gra-group-9\coursework 1\gra_tutorial\myscene.cpp(268): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\y4\g53gra\g53gra-group-9\coursework 1\gra_tutorial\myscene.cpp(269): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\y4\g53gra\g53gra-group-9\coursework 1\gra_tutorial\myscene.cpp(270): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  GRA_Tutorial.vcxproj -> E:\Y4\G53GRA\g53gra-group-9\Coursework 1\Debug\GRA_Week2.exe
